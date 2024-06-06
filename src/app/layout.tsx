@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
+import { Home } from "lucide-react";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -22,9 +23,9 @@ export default function RootLayout({
       <body className={cn("container bg-background dark font-sans antialiased min-h-screen p-4", inter.className)}>
         <header className="sticky top-0">
           <nav className="flex justify-end space-x-4">
-            <Link href="/">Home</Link>
-            <Link href="/projects">Projects</Link>
             <Link href="/about">About</Link>
+            <Link href="/projects">Projects</Link>
+            <Link href="/"><Home /></Link>
           </nav>
           <Separator className="my-4" />
         </header>
