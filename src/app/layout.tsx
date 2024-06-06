@@ -20,24 +20,35 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("container bg-background dark font-sans antialiased min-h-screen p-4", inter.className)}>
+      <body
+        className={cn(
+          "container bg-background dark font-sans antialiased min-h-screen p-4",
+          inter.className,
+        )}
+      >
         <header className="sticky top-0">
           <nav className="flex justify-end space-x-4">
             <Link href="/about">About</Link>
             <Link href="/projects">Projects</Link>
-            <Link href="/"><Home /></Link>
+            <Link href="/">
+              <Home />
+            </Link>
           </nav>
           <Separator className="my-4" />
         </header>
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
         <footer className="sticky top-full">
           <Separator className="my-4" />
           <div className="flex justify-center space-x-4">
-            <Link href="https://github.com/kmontag42" target="_blank">GitHub</Link>
-            <Link href="https://x.com/thekylemontag" target="_blank">Twitter</Link>
-            <Link href="https://linkedin.com" target="_blank">LinkedIn</Link>
+            <Link href="https://github.com/kmontag42" target="_blank">
+              GitHub
+            </Link>
+            <Link href="https://x.com/thekylemontag" target="_blank">
+              Twitter
+            </Link>
+            <Link href="https://linkedin.com" target="_blank">
+              LinkedIn
+            </Link>
           </div>
         </footer>
       </body>
