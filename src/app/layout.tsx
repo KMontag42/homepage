@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 
@@ -21,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "container bg-background dark font-sans antialiased min-h-screen p-4",
+          "container bg-background font-sans antialiased min-h-screen p-4",
           inter.className,
         )}
       >
