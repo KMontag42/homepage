@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { Separator } from "@/components/ui/separator";
-import Link from "next/link";
-import { Home } from "lucide-react";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -26,31 +25,9 @@ export default function RootLayout({
           inter.className,
         )}
       >
-        <header className="sticky top-0">
-          <nav className="flex justify-end space-x-4">
-            <Link href="/about">About</Link>
-            <Link href="/projects">Projects</Link>
-            <Link href="/">
-              <Home />
-            </Link>
-          </nav>
-          <Separator className="my-4" />
-        </header>
+        <Header />
         <main>{children}</main>
-        <footer className="sticky top-full">
-          <Separator className="my-4" />
-          <div className="flex justify-center space-x-4">
-            <Link href="https://github.com/kmontag42" target="_blank">
-              GitHub
-            </Link>
-            <Link href="https://x.com/thekylemontag" target="_blank">
-              Twitter
-            </Link>
-            <Link href="https://linkedin.com" target="_blank">
-              LinkedIn
-            </Link>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
