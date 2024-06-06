@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
+import { ThemeProvider } from '@/components/theme-provider';
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 
@@ -22,13 +23,15 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "container bg-background font-sans antialiased min-h-screen p-4",
+          "font-sans antialiased min-h-screen p-4",
           inter.className,
         )}
       >
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
