@@ -5,7 +5,7 @@ export default function Projects() {
     <div className="flex flex-col items-center justify-center text-center">
       <TypographyH1>Projects</TypographyH1>
       <TypographyP>
-        Here are some of the projects I've worked on.
+        Here are some of the projects I&apos;ve worked on.
       </TypographyP>
     </div>
   )
