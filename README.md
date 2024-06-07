@@ -19,6 +19,9 @@ pnpm dev
 
 - [pnpm](https://pnpm.io/)
 - [nextjs](https://nextjs.org/)
+- [tailwindcss](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [react-icons](https://react-icons.github.io/react-icons/)
 
 ## Deployment
 
