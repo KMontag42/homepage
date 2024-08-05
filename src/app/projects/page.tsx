@@ -13,6 +13,9 @@ export default function Projects() {
         <Link href="https://atek.afkanalytica.com" target="_blank">
           AFKJourney Team Builder
         </Link>
+        <Link href="https://professional-emails.vercel.app" target="_blank">
+          Workrant
+        </Link>
       </div>
     </div>
   );
