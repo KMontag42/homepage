@@ -11,13 +11,12 @@ For now its pretty basic.
 ## Running
 
 ```bash
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 ## Tools used
 
-- [pnpm](https://pnpm.io/)
 - [nextjs](https://nextjs.org/)
 - [tailwindcss](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
@@ -26,4 +25,3 @@ pnpm dev
 ## Deployment
 
 This is deployed on [Vercel](https://vercel.com/).
-
