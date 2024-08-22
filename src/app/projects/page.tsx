@@ -16,6 +16,9 @@ export default function Projects() {
         <Link href="https://workrant.alwaysbeshipp.ing" target="_blank">
           Workrant
         </Link>
+        <Link href="https://baby-tracker.krm.sh" target="_blank">
+          Baby Tracker
+        </Link>
       </div>
     </div>
   );
