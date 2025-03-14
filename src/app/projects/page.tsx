@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <div className="flex flex-col items-center justify-center text-center">
+    <div className="flex flex-col items-center justify-center text-center bg-background/90 p-8 rounded border">
       <TypographyH1>Projects</TypographyH1>
       <TypographyP>Side projects I&apos;ve worked on recently.</TypographyP>
       <div className="flex flex-col space-y-4 mt-4 underline">

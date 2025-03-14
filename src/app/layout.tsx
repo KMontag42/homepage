@@ -3,9 +3,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-import { ThemeProvider } from '@/components/theme-provider';
+import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import AnimatedStockBackground from "@/components/client/animated-chart-background";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   description: "The homepage for 0xKRM",
   icons: {
     icon: "/favicon.ico",
-  }
+  },
 };
 
 export default function RootLayout({
@@ -32,7 +33,13 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
-          <main>{children}</main>
+          <main className="flex items-center justify-center min-h-[85vh]">
+            <div className="absolute inset-0 -z-10">
+              <AnimatedStockBackground />
+            </div>
+
+            {children}
+          </main>
           <Footer />
         </ThemeProvider>
       </body>
