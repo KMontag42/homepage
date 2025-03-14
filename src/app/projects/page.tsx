@@ -10,14 +10,20 @@ export default function Projects() {
         <Link href="https://x.com/ethresearchbot" target="_blank">
           @ethresearchbot
         </Link>
-        <Link href="https://atek.afkanalytica.com" target="_blank">
-          AFKJourney Team Builder
+        <Link href="https://x.com/arbitrumgovbot" target="_blank">
+          @arbitrumgovbot
+        </Link>
+        <Link href="https://x.com/optimismgovbot" target="_blank">
+          @optimismgovbot
+        </Link>
+        <Link href="https://analytica.gg" target="_blank">
+          Analytica.gg
         </Link>
         <Link href="https://workrant.alwaysbeshipp.ing" target="_blank">
           Workrant
         </Link>
-        <Link href="https://baby-tracker.krm.sh" target="_blank">
-          Baby Tracker
+        <Link href="https://newsletter.alwaysbeshipp.ing" target="_blank">
+          Always Be Shipping News
         </Link>
       </div>
     </div>
