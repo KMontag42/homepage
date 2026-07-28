@@ -6,7 +6,7 @@ export default function About() {
     <div className="flex flex-col items-center justify-center text-center bg-background/90 p-8 rounded border">
       <TypographyH1>About</TypographyH1>
       <TypographyP>
-        I&apos;m Kyle, a software engineer based in Boston.
+        I&apos;m Kyle, a software engineer based in Maine.
       </TypographyP>
       <TypographyP>
         I&apos;m currently working at{" "}
@@ -17,7 +17,7 @@ export default function About() {
       </TypographyP>
       <TypographyP>
         In my free time, I enjoy working on side projects, and spending time
-        with my wife, our baby, and our cats.
+        with my wife, our baby, and our cat.
       </TypographyP>
     </div>
   );

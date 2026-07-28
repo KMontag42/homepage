@@ -10,15 +10,6 @@ export default function Projects() {
         <Link href="https://x.com/ethresearchbot" target="_blank">
           @ethresearchbot
         </Link>
-        <Link href="https://x.com/arbitrumgovbot" target="_blank">
-          @arbitrumgovbot
-        </Link>
-        <Link href="https://x.com/optimismgovbot" target="_blank">
-          @optimismgovbot
-        </Link>
-        <Link href="https://analytica.gg" target="_blank">
-          Analytica.gg
-        </Link>
         <Link href="https://workrant.alwaysbeshipp.ing" target="_blank">
           Workrant
         </Link>
